@@ -1,7 +1,7 @@
 {
-  "name": "es2015-library-skeleton",
+  "name": "material-ui-beta-to-v1-codemod",
   "version": "0.0.0-development",
-  "description": "my personal ES2015 library project skeleton",
+  "description": "jscodeshift codemod to upgrade material-ui package paths from beta to v1",
   "main": "lib/index.js",
   "module": "es/index.js",
   "sideEffects": false,
@@ -42,7 +42,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jedwards1211/es2015-library-skeleton.git"
+    "url": "https://github.com/jcoreio/material-ui-beta-to-v1-codemod.git"
   },
   "keywords": [
     "es2015"
@@ -50,9 +50,9 @@
   "author": "Andy Edwards",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jedwards1211/es2015-library-skeleton/issues"
+    "url": "https://github.com/jcoreio/material-ui-beta-to-v1-codemod/issues"
   },
-  "homepage": "https://github.com/jedwards1211/es2015-library-skeleton#readme",
+  "homepage": "https://github.com/jcoreio/material-ui-beta-to-v1-codemod#readme",
   "devDependencies": {
     "@commitlint/cli": "^6.0.2",
     "@commitlint/config-conventional": "^6.0.2",
