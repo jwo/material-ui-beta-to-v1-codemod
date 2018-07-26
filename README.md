@@ -12,7 +12,8 @@ jscodeshift codemod to upgrade material-ui package paths from beta to v1
 1. `yarn global add jscodeshift`
 2. `git clone https://github.com/jcoreio/material-ui-beta-to-v1-codemod.git`
 3. Run `yarn install` in the `material-ui-beta-to-v1-codemod` directory
-4. `jscodeshift -t material-ui-beta-to-v1-codemod/lib/index.js <path>`
+4. Run `yarn build` in the `material-ui-beta-to-v1-codemod` directory
+5. `jscodeshift -t material-ui-beta-to-v1-codemod/lib/index.js <path>`
   * `path` - files or directory to transform
   * use the `-d` option for a dry-run and use `-p` to print the output for comparison
   * use the `--extensions` option if your files have different extensions than `.js` (for example, `--extensions js,jsx`)
